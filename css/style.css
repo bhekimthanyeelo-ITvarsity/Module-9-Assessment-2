@@ -1,0 +1,36 @@
+body{
+    font-family: fantasy;
+}
+
+#local{
+    width: 100%;
+    background-color: antiquewhite;
+    padding: 15px 0;
+    margin: 0;
+
+    font-size: 1.5rem;
+    color: lightgrey;
+    text-align: center;
+}
+
+#cities{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#cities td{
+    border: 1px solid lightskyblue;
+    padding: 8px;
+}
+
+#cities tr:nth-child(even){
+    background-color: darkcyan;
+}
+
+.col1{
+    width: 10%;
+}
+
+.clo2{
+    width: 45%;
+}
